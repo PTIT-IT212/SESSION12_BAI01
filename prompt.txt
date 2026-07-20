@@ -1,0 +1,17 @@
+prompt :
+ Bạn là một Senior Business Analyst có 10 năm kinh nghiệm trong lĩnh vực FinTech và Ngân hàng số. Hãy giúp tôi phân tích yêu cầu nghiệp vụ cho dự án "Số hóa quy trình mở tài khoản trực tuyến qua eKYC" của ngân hàng số ABC Bank với mục tiêu cốt lõi là "Zero manual operation".
+
+Hãy thực hiện phân tích chuyên sâu và trình bày kết quả bằng ngôn ngữ tiếng Việt (định dạng Markdown) theo cấu trúc chính xác sau:
+
+1. PHÂN TÍCH HỆ THỐNG (SYSTEM ANALYSIS):
+   - Actors: Liệt kê chi tiết toàn bộ các tác nhân (User, Hệ thống bên thứ 3, OCR Engine, Liveness Check Service, Core Banking...).
+   - Business Flow: Mô tả luồng nghiệp vụ chi tiết từng bước từ lúc tải app đến khi cấp tài khoản thành công.
+   - Functional Requirements: Liệt kê các yêu cầu chức năng theo từng phân hệ (Đăng ký, OCR, Liveness, Đối chiếu, Phê duyệt tự động).
+   - Non-Functional Requirements: Các yêu cầu về Bảo mật (Security), Hiệu năng (Performance), Độ khả dụng (Availability), và Tính toàn vẹn dữ liệu.
+   - Assumptions & Business Rules: Các giả định kỹ thuật và quy tắc nghiệp vụ khắt khe của ngân hàng (ví dụ: độ tuổi, độ trùng khớp khuôn mặt %, xử lý khi OCR thất bại...).
+
+2. CHUYỂN ĐỔI ARTIFACTS (BUSINESS ARTIFACTS):
+   - Danh sách User Story: Viết theo chuẩn "As a... I want to... So that..." (Tối thiểu 5 User Stories bao quát toàn bộ luồng chính và luồng ngoại lệ).
+   - Danh sách Use Case: Liệt kê tên Use Case kèm Actor chính tương ứng.
+
+Yêu cầu: Câu trả lời cần có tính thực tế cao, tư duy hệ thống chặt chẽ của một chuyên gia tài chính và đáp ứng đúng tiêu chí "Zero manual operation".
